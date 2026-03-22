@@ -1,0 +1,41 @@
+Webhook chamado
+Body: 
+Webhook chamado
+Body: 
+GET: Array
+(
+)
+
+Payment ID não encontrado
+Webhook chamado
+Body: {"action":"payment.created","api_version":"v1","data":{"id":"150546590265"},"date_created":"2026-03-20T23:50:23Z","id":130004646725,"live_mode":true,"type":"payment","user_id":"1577632483"}
+GET: Array
+(
+    [data_id] => 150546590265
+    [type] => payment
+)
+
+Payment ID: 150546590265
+Pagamento não aprovado
+Webhook chamado
+Body: {"action":"payment.updated","api_version":"v1","data":{"id":"150546590265"},"date_created":"2026-03-20T23:50:23Z","id":130127533402,"live_mode":true,"type":"payment","user_id":"1577632483"}
+GET: Array
+(
+    [data_id] => 150546590265
+    [type] => payment
+)
+
+Payment ID: 150546590265
+Pagamento aprovado
+SteamID: 76561198858380374 | Coins: 1000
+Webhook chamado
+Body: {"action":"payment.updated","api_version":"v1","data":{"id":"150546590265"},"date_created":"2026-03-20T23:50:23Z","id":130004708993,"live_mode":true,"type":"payment","user_id":"1577632483"}
+GET: Array
+(
+    [data_id] => 150546590265
+    [type] => payment
+)
+
+Payment ID: 150546590265
+Pagamento aprovado
+SteamID: 76561198858380374 | Coins: 1000

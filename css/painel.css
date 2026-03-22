@@ -1,0 +1,70 @@
+body {
+    font-family: Arial;
+    background: #111;
+    color: white;
+    text-align: center;
+    background-image: url("https://i.imgur.com/LHvjLHw.jpeg");
+    background-image: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    margin: 0;
+}
+
+.card {
+    background: #1c1c1c;
+    padding: 40px;
+    margin: 50px auto;
+    width: 300px;
+    border-radius: 10px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.coins {
+    font-size: 30px;
+    color: #00ff88;
+    text-shadow: 0 0 10px #00ff88;
+}
+
+.historico {
+    max-width: 800px;
+    margin: 30px auto;
+    background: rgba(0,0,0,0.85);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.historico h2 {
+    color: red;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th {
+    background: #222;
+    color: red;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #333;
+}
+
+.status-ok {
+    color: #00ff88;
+    font-weight: bold;
+}
+
+.status-pending {
+    color: orange;
+    font-weight: bold;
+}
